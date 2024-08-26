@@ -1,0 +1,345 @@
+MEARN- MONGODB,EXPRESS ANGULAR REACT NODE.JS
+--------------------------------------------
+
+-TO CREATE WEB APPLICATIONS
+-FRONT END(USER INTERACTING PLACE)-ANGULAR REACT 
+-BACKEND (USER DOESNT SEE, RESOLVES USER INTRACTIONS AND PROVIDES OUTPUT) 
+         -SERVER   :EXPRESS, NODE J.S
+         -DATABASE :MONGODB
+-EXPRESS, NODE J.S ANGULAR REACT: (BASE LANGUAGE) JAVASCRIPT
+
+
+HTML - HyperText Mark up Language
+---------------------------------
+
+mark up language
+----------------
+-used for designing
+eg:html
+-also known as tag based language because uses tags
+eg: <tagname>
+-browser's runs markup language
+
+html - basic structure
+----------------------
+<html>   :opening tag
+<head>
+<title></title></head>
+<body>
+.
+(content)
+.
+</body>
+</html>  :closing tag
+--------------------
+self closing tag: <tagname/> also known as void element... eg:<img/>,<input/>,<hr/>,<br/>
+
+used code editors - vscode(it supp many languages)
+-----------------------------------------
+
+
+
+html 5 diff-
+-Doctype
+-language
+-meta tags
+---------------
+semantic tags-
+
+-header
+-footer
+-aside
+-main
+
+-----------
+Basic structure load- ! and hit enter
+-----------------
+
+diff types of tags
+1) h-heading tag 
+  Value :- h1 -h6
+
+2) p- to create paragraph
+   lorem- to create dummy paragraph
+   to wrap a content - alt + w
+  
+3) br- to create break
+
+4) img - used to create image
+
+attribute- provides more info about given tag   
+eg - src,alt
+
+5) a - anchor tag - to create links
+
+6) source - void tag
+
+7) iframe - nesting of websites - websites within another websites
+
+----------------
+
+8)video:
+     attributes: width, height, controls(allows to play video)
+9)audio:
+     attributes: width, height, controls(allows to play audio)
+-nav
+-progress
+-article
+10)i
+11)emp
+12)mark
+13)sub
+14)sup
+15)del
+16)span - to edit a particular part of content
+17)div-to create divisions in webpage
+___________
+
+unit
+----
+px- pixel
+%- percentage
+vh- viewport height
+fr-fraction
+rem-related to html font size-- 1 rem=16px
+------------
+LIST
+----
+
+1. Ordered list:  numbering or alphabets
+
+-Attribute: type(i,I,a,A) , start , reversed
+       <ol>
+       <li></li>
+       .
+       .
+       .
+       <li></li>
+       </ol>
+2. Unordered list: bullet points,square,circle etc
+
+-Attributes: type(square, circle & dics)
+       <ul>
+       <li></li> 
+       </ul>
+
+TABLE
+-----
+
+Attributes: border 
+
+ <table>
+  <thead>
+  <tr> ------> rows
+  <th></th> ----->table headings
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td></td> ----->contents
+  </tr>
+  </tbody>
+ </table>
+
+
+Forms
+-----
+
+-to get input from users
+-<form>
+    label-type of inputs to be entered
+    input-recieves user inputs
+    -placeholder- to show what to type ion text box for user
+    -name- used to group values
+    textarea
+    select
+    button
+
+different values to type attributes
+1)text
+2)password
+3)email
+4)date
+5)radio
+6)file-used to upload files
+7)number
+8)checkbox
+
+to comment - cntrl + /
+
+-<textarea>- to create large text areas
+
+-<select>- to create drop down boxes
+ option - to display contents
+
+-<button>
+2 attributes
+-submit
+-button
+
+
+------------
+CSS- cascading style sheet
+------------
+
+-to provide styles to html contents.
+-diff ways to add css to html
+
+1)inline CSS- more priority
+  ----------
+
+  syntax- rules for applying code
+  ------
+  -place style attribute in the opening tag
+   style="property:value"
+  provide semi colon after each property value pair 
+
+2)internal CSS - embed inside head
+
+   syntax
+   -------
+    tagname{
+
+    
+     property:value;
+    }
+   <style>
+
+   </style>
+3)external CSS
+
+-create a file with extension filename.css
+-link css and html file with link tag
+-selector{
+  property:value
+}
+
+-better approach
+-provides re usability
+-increase readability
+-reduces loading time
+
+-priority inline>internal>external
+
+selectors
+---------
+
+-used to select the tag to be styled.
+
+types of selectoes
+1) tagname selector
+2) id selector- to style uniquely
+   -represented by # symbol
+3)class selector- to style in group   
+   -represented by . symbol
+4)universal selector-style the entire document
+   - represented by * symbol
+5) descendent selector - given as parent and child
+css box model
+6)group selector- to edit in groups
+-------------
+
+-its a box that wraps around every html element
+-consist of border, margin and padding
+
+-border- its the line drawn around the content - by default it si transparent
+ -styles
+ 1)solid
+ 2)dotted
+ 3)dashed
+ 4)double
+ 5)groove
+ 6)ridge
+ 7)inset
+ 8)outset
+
+-margin- space between border and outer space/element
+-padding- space between border and content
+
+float- to float content to given direction
+
+
+CDN - content delivery network
+
+
+
+nav- used to create navigation bar
+
+pseudoclass- used to define a special state of an element
+-eg:- hover, active , visited
+
+syntax
+------
+element:pseudoclass{property:value}
+
+h1:hover{
+   color:red;
+}
+
+transform- applies 2d or 3d transformation for an element
+-transform
+rotate,scale,translate
+
+
+css grid system
+--------------
+have rows and columns
+-display:grid
+grid-template-columns
+
+
+linear gradiant- color combinations can be created
+-its a value of background image
+syntax
+------
+background-image: lineargradient(direction, color,....,...)
+
+directions-top,bottom,left,right,top right,top left, bottom right
+
+Media query - used to provide diff styles to elements in different media type(gadgets)
+
+
+Git and Git hub
+---------------
+Github is a cloud based platform or service for software developers that allows developers to store and manage their code.
+
+features-
+--------
+ -store code
+ -share code with other developers
+ -can host website- minor feature
+ -version control
+
+
+git- tool to perform operations in Github
+
+storages
+--------
+git storage- local repository
+github storage- remote repository
+
+operations in git
+-----------------
+1) push - to add data - local repo -> remote repo - uploading
+2) clone - retrieving data - remote repo -> local repo -downlaoding entire code
+3) pull - retrieving data - remote repo -> local repo - downloading only the updated code.
+
+push
+----
+git add- local -> staging area
+git commit- staging area -> local repo
+
+commands
+--------
+-git init - to intialize git repository along with staging area
+-git status - to check the status of the file inside the folder
+-git add filename / git add . (to add files together)
+-git commit -m"message"- to save the file to local repository
+-git remote add - to connect 
+-origin- is a variable that holds the url of github repository
+master-name of the branch
+
+steps to host
+- settings
+- pages
+- branch -> none to master
